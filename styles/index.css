@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, p {
+
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #081cb5;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+input {
+
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.back {
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../images/back_desk.svg);
+    background-size: cover;
+}
+
+.login_box {
+
+    display: flex;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 10px;
+}
+
+.welcome {
+
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/back_home.svg);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.users_list {
+
+    margin-top: 30px;
+    background-color: #01ee88;
+    color: white;
+}
+
+.users_list:hover {
+
+    background-color: #000e7a;
+    color: white;
+}
+
+.text {
+
+    width: 80%;
+    text-align: center;
+}
+
+.register {
+
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_users {
+
+    width: 70%;
+    text-align: center;
+}
+
+button {
+
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: 1px solid #081cb5;
+    background-color: #081cb5;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    
+    background-color: #081684;
+    color: white;
+
+}
+
+.sucsses {
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #01ee88;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.sucsses > p {
+
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.error {
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ee0101;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.error > p {
+
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
