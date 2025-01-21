@@ -53,6 +53,7 @@ input {
 .login_box {
 
     display: flex;
+    flex-wrap: wrap;
     width: 70%;
     height: 500px;
     margin: auto;
@@ -72,6 +73,7 @@ input {
     background-size: cover;
     border-radius: 10px 0px 0px 10px;
 }
+
 
 .users_list {
 
@@ -112,7 +114,7 @@ button {
     font-size: 20px;
     letter-spacing: 1px;
     border-radius: 10px;
-    border: 1px solid #081cb5;
+    border: 2px solid #081cb5;
     background-color: #081cb5;
     color: white;
     padding: 5px 20px;
@@ -162,4 +164,59 @@ button:hover {
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .back  {
+
+        background-image: url(../images/back_mobile.svg);
+    }
+
+    h1 {
+
+        text-shadow: 0px 0px 10px black;
+    }
+
+    .welcome {
+
+        width: 100%;
+        height: unset;
+        padding: 40px 0px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .register {
+
+        width: 100%;
+        height: unset;
+        padding: 40px 0px;
+    }
+
+    .login_box {
+
+        height: 800px;
+        overflow-y: auto;
+    }
+
+    input {
+
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid lightgray;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .error {
+
+        height: 120px;
+    }
+
+    .sucsses {
+
+        height: 120px;
+    }
 }

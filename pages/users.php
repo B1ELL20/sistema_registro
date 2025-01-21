@@ -26,10 +26,6 @@
                 <p>Usuário deletado com sucesso!</p>
             </div>
         <?php } ?>
-        
-        <div class="box_edit">
-
-        </div>
 
         <div class="title_users">
             <h1>Usuários Cadastrados</h1>
